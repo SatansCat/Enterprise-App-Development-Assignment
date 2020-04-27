@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" type="text/css" href="list.css">
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="list.js"></script>
+        <!------ Include the above in your HEAD tag ---------->
+    </head>
+
+<body>
+<div class="container">
+    <br />
+	<div class="row">
+
+        <div class="dual-list list-left col-md-5">
+            <div class="well text-right">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="input-group">
+                            <span class="input-group-addon glyphicon glyphicon-search"></span>
+                            <input type="text" name="SearchDualList" class="form-control" placeholder="search" />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="btn-group">
+                            <a class="btn btn-default selector" title="select all"><i class="glyphicon glyphicon-unchecked"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Item</li>
+                    <li class="list-group-item">Example 1</li>
+                    <li class="list-group-item">Example 2</li>
+                    <li class="list-group-item">Example 3</li>
+                    <li class="list-group-item">Example 4</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="list-arrows col-md-1 text-center">
+            <button class="btn btn-default btn-sm move-left">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </button>
+
+            <button class="btn btn-default btn-sm move-right">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </button>
+        </div>
+
+        <div class="dual-list list-right col-md-5">
+            <div class="well">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="btn-group">
+                            <a class="btn btn-default selector" title="select all"><i class="glyphicon glyphicon-unchecked"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="input-group">
+                            <input type="text" name="SearchDualList" class="form-control" placeholder="search" />
+                            <span class="input-group-addon glyphicon glyphicon-search"></span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Example 5</li>
+                    <li class="list-group-item">Example 6</li>
+                    <li class="list-group-item">Example 7</li>
+                    <li class="list-group-item">Example 8</li>
+                    <li class="list-group-item">Example 9</li>
+                </ul>
+            </div>
+        </div>
+
+	</div>
+</div>
+</body>
+</html>
